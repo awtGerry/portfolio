@@ -6,4 +6,11 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# wasm-bindgen-futures = "0.4.37"
+# futures = "0.3.28"
+# sycamore-reactive = "0.8.1"
+# sycamore-futures = "0.8.0"
+serde = { version = "1.0", features = ["derive"] }
+wasm-bindgen = { version = "0.2", features = ["serde-serialize"] }
+wasm-bindgen-futures = "0.4.37"
 sycamore = "0.9.0-beta.1"
