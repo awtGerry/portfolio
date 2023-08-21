@@ -1,1 +1,2 @@
-# Trying sycamore yay
+# Portfolio
+Made with rust using sycamore.
